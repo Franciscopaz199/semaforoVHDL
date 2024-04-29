@@ -8,7 +8,7 @@ architecture tb_arch of dff_tb is
     -- Declaración de señales
     signal D_tb, Clk_tb, Q_tb : std_logic := '0';
 
-    -- Instancia del componente bajo prueba
+    -- Instancia del componente del flip-flop tipo D
     component dff
         port (
             D, Clk : in std_logic;
@@ -26,6 +26,7 @@ begin
      );
 
     -- proceso para la senal del reloj
+    -- establece una señal de reloj de 10 ns
     Clock_process : process
     begin
         Clk_tb <= '0';

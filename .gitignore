@@ -1,0 +1,13 @@
+# Ignorar archivos relacionados con .bak en todos los directorios
+**/*.bak
+
+# Ignorar códigos generados por ModelSim en todos los directorios
+**/*.vst
+**/*.vho
+**/*.vhs
+**/*.vhp
+**/*.vstf
+**/*.vws
+
+# Añadir excluciones específicas para no ignorar archivos PDF en todos los directorios
+!**/*.pdf

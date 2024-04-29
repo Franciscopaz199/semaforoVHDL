@@ -6,6 +6,7 @@ end entity TimerCircuits_TB;
 
 architecture testbench of TimerCircuits_TB is
 
+    -- Señales de entrada y salida
     signal LongTrig, ShortTrig, Clk: std_logic := '0';
     signal TS, TL: std_logic;
     signal stop_simulation : boolean := false;  -- Señal para detener la simulación
