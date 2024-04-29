@@ -1,3 +1,6 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
 entity LightOutputLogic is
     port (
         L1, L2, L3, L4: in bit;
